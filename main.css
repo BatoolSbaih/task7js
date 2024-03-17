@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 350px;
+    gap: 20px;
+    border:6px;
+    border-color: black;
+    border-style: double;
+    margin: auto;
+    background-color: rgb(153, 245, 214);
+}
+button{
+    padding: 10px;
+    font-size: medium;
+    font-weight:600;
+    border-color: black;
+    border-style:dashed;
+    cursor:grab;
+}
+span{
+    background-color: rgba(238, 234, 234, 0.938);
+    padding:10px 35px;
+    border-color: black;
+    border-style: dashed;
+}
+a{
+    border:6px;
+    border-color: black;
+    border-style: double;
+    background-color: rgb(167, 173, 171);
+    padding: 20px;
+    color: black;
+    font-size: medium;
+    font-weight:600;
+}
